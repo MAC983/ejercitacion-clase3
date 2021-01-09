@@ -1,0 +1,50 @@
+
+div {
+    background-image: url(./img/rock-index.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    text-align: center;
+    padding: 200px;
+    margin: 40px;
+    width: fit-content;
+
+}
+
+form {
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    margin: initial;
+    color: white;
+    background-size: cover;
+    width: fit-content;
+    border-radius: 10px;
+    border: 8px double red;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+input {
+    padding: 3px;
+    background-color: rgb(240, 231, 231);
+    text-align: left;
+    border-radius: 10px rgb(41, 11, 11);
+    border: inset;
+}
+
+img {
+    border: 10px outset red;
+
+}
+
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <h1>FORMULARIO DE CONSULTA</h1>
+    <br>
+    <img src="./img/rock-index2.jpg" alt="i love Rock" width="585px">
+    <br>
+    <br>
+        <form>
+         <p>Por favor, introduce tus datos para realizar tu consulta</p>  
+         <br> 
+        <label for="nombre"></label>
+        <input type="text" id="nombre" size="79" placeholder="Ingresa tu nombre y apellido">
+        <br>
+        <br>
+        <label for="mail"></label>
+        <input type="text" id="mail" size="79" placeholder="Ingresa tu e-mail con el siguiente formato id@mail.com">
+        <br>
+        <br>
+        <label></label>
+        <select>
+        <option>Elije la opción deseada...</option>
+        <option>Buenos aires(011)</option>
+        <option>La Plata (0221)</option>
+        <option>Mendoza (0261)</option>
+        <option>San Juan (0264)</option>
+        <option>San Luis (0266)</option>
+        <option>Chubut (0280)</option>
+        <option>Formosa (0370)</option>
+        <option>Neuquen (0299)</option>
+        <option>Santa Fe (0342)</option>
+        <option>Entre Ríos (0343)</option>
+        <option>Córdoba (0351)</option>
+        <option>Chaco (0362)</option>
+        <option>Catamarca (0383)</option>
+        <option>Misiones (0376)</option>
+        <option>Corrientes (0379)</option>
+        <option>La Rioja (0380)</option>
+        <option>Tucumán (0381)</option>
+        <option>Santiago del Estero (0385)</option>
+        <option>Salta (0387)</option>
+        <option>Jujuy (0388)</option>
+        <option>Tierra del Fuego (02901)</option>
+        <option>Río Negro (02920)</option>
+        <option>La Pampa (02954)</option>
+        <option>Santa Cruz (02966)</option>
+        </select>
+        <label for="telefono"></label>
+        <input type="num" id="telefono" placeholder="Tu teléfono">
+        <br>
+        <br>
+        <!-- se agrega estilo en linea -->
+        <label for="comentario"></label>
+        <textarea style="border-radius: 10px; border: inset 5px; border-color: red;" name="comentario" id="" cols="80" rows="10" placeholder="Ingresa tu comentario"></textarea>
+        <br>
+        <br>
+        <input type="checkbox">
+        <label>Acepto la <a href="#">política de privacidad</a></label>
+        <br>
+        <br>
+        <label></label>
+        <input type="submit" value="Solicitar información">
+        </form>
+    </div>
+</body>
+</html>
